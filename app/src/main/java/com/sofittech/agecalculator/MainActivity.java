@@ -1,7 +1,7 @@
 package com.sofittech.agecalculator;
 
 import android.app.DatePickerDialog;
-import android.graphics.Color;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -96,7 +96,6 @@ public class MainActivity extends AppCompatActivity {
                             Toast.LENGTH_LONG).show();
                 }
 
-
             }
         });
     }
@@ -129,7 +128,6 @@ public class MainActivity extends AppCompatActivity {
         sb.append(" Seconds");
 
         return sb.toString();
-
 
     }
 
